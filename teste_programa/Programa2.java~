@@ -1,10 +1,10 @@
 class Programa2 {
    public static void main(String[] args) {
-     // aqui criei a conta.
+     // criando a conta
      Conta minhaConta;
      minhaConta = new Conta();
  
-     // aqui altero os valores de minhaConta
+     // alterando os valores de minhaConta
      minhaConta.dono = "Duke";
      minhaConta.saldo = 1000;
    
