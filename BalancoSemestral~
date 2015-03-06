@@ -1,0 +1,19 @@
+class BalancoSemestral {
+	public static void main(String[] args) {
+
+		int gastosJaneiro = 15000;
+		int gastosFevereiro = 23000;
+		int gastosMarco = 17000;
+		int gastosAbril = 2000;
+		int gastosMaio = 9000;
+		int gastosJunho = 5000;
+		int gastosSemetrais = gastosJaneiro + gastosFevereiro + gastosMarco + gastosAbril +  gastosMaio + gastosJunho;
+		
+		String mediaMensal = "Valor da Média Mensal = " + gastosTrimestre / 3;
+		System.out.println(gastosTrimestre);
+		System.out.println(mediaMensal);
+
+
+		
+	}
+}
